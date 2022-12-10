@@ -14,9 +14,11 @@
 | 03  | ¿Cuántas cajas de regalos puede llevar Papá Noel? |       🟢       | [Reto #3](https://github.com/AgosVenezia/adventJS_2022/blob/main/Reto%233.js) |
 | 04  |      Una caja dentro de otra caja y otra...       |       🟠       | [Reto #4](https://github.com/AgosVenezia/adventJS_2022/blob/main/Reto%234.js) |
 | 05  |            Optimizando viajes de Santa            |       🔴       | [Reto #5](https://github.com/AgosVenezia/adventJS_2022/blob/main/Reto%235.js) |
-| 06  |             Creando adornos navideños             |       🟠       | [Reto #6] |
-| 07  |           Haciendo inventario de regalos          |       🟢       | [Reto #7] |
-| 08  |              ¡Necesitamos un mecánico!            |       🟠       | [Reto #8] |
+| 06  |             Creando adornos navideños             |       🟠       | [Reto #6](https://github.com/AgosVenezia/adventJS_2022/blob/main/Reto%236.js) |
+| 07  |           Haciendo inventario de regalos          |       🟢       | [Reto #7](https://github.com/AgosVenezia/adventJS_2022/blob/main/Reto%237.js) |
+| 08  |              ¡Necesitamos un mecánico!            |       🟠       | [Reto #8](https://github.com/AgosVenezia/adventJS_2022/blob/main/Reto%238.js) |
+| 09  |              Las locas luces de Navidad           |       🟢       | [Reto #9](https://github.com/AgosVenezia/adventJS_2022/blob/main/Reto%239.js) |
+| 10  |          El salto del trineo de Papá Noel         |       🟠       | [Reto #10](https://github.com/AgosVenezia/adventJS_2022/blob/main/Reto%2310.js) |
 
 
 
