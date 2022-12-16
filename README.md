@@ -19,7 +19,13 @@
 | 08  |              ¡Necesitamos un mecánico!            |       🟠       | [Reto #8](https://github.com/AgosVenezia/adventJS_2022/blob/main/Reto%238.js) |
 | 09  |              Las locas luces de Navidad           |       🟢       | [Reto #9](https://github.com/AgosVenezia/adventJS_2022/blob/main/Reto%239.js) |
 | 10  |          El salto del trineo de Papá Noel         |       🟠       | [Reto #10](https://github.com/AgosVenezia/adventJS_2022/blob/main/Reto%2310.js) |
+| 11  |              Papá Noel es Scrum Master            |       🔴       | [Reto #11](https://github.com/AgosVenezia/AdventJS_2022/blob/main/Reto%2311.js) |
+| 12  |             Trineos eléctricos, ¡guau!            |       🟠       | [Reto #12](https://github.com/AgosVenezia/AdventJS_2022/blob/main/Reto%2312.js) |
+| 13  |          Backup de los archivos de Papá Noel      |       🟢       | [Reto #13](https://github.com/AgosVenezia/AdventJS_2022/blob/main/Reto%2313.js) |
+| 14  |                   El mejor camino                 |       🟠       | [Reto #14](https://github.com/AgosVenezia/AdventJS_2022/blob/main/Reto%2314.js) |
+| 15  |            Decorando el árbol de Navidad          |       🟠       | [Reto #15](https://github.com/AgosVenezia/AdventJS_2022/blob/main/Reto%2315.js) |
+| 16  |          Arreglando las cartas de Papá Noel       |       🔴       | [Reto #16](https://github.com/AgosVenezia/AdventJS_2022/blob/main/Reto%2316.js) |
 
 
 
-🟢 Facil 🟠 Media 🔴 Dificil 🟣 Muy Dificil
+🟢 Fácil 🟠 Media 🔴 Dificil 🟣 Muy Dificil
