@@ -25,7 +25,19 @@
 | 14  |                   El mejor camino                 |       🟠       | [Reto #14](https://github.com/AgosVenezia/AdventJS_2022/blob/main/Reto%2314.js) |
 | 15  |            Decorando el árbol de Navidad          |       🟠       | [Reto #15](https://github.com/AgosVenezia/AdventJS_2022/blob/main/Reto%2315.js) |
 | 16  |          Arreglando las cartas de Papá Noel       |       🔴       | [Reto #16](https://github.com/AgosVenezia/AdventJS_2022/blob/main/Reto%2316.js) |
+| 17  |          Llevando los regalos en sacos            |       🟠       | [Reto #17](https://github.com/AgosVenezia/AdventJS_2022/blob/main/Reto%2317.js) |
+| 18  |          ¡Nos quedamos sin tinta!                 |       🟢       | [Reto #18](https://github.com/AgosVenezia/AdventJS_2022/blob/main/Reto%2318.js) |
+| 19  |          Ordenando los regalos                    |       🟢       | [Reto #19](https://github.com/AgosVenezia/AdventJS_2022/blob/main/Reto%2319.js) |
+| 20  |          Más viajes retadores                     |       🔴       | [Reto #20](https://github.com/AgosVenezia/AdventJS_2022/blob/main/Reto%2320.js) |
+| 21  |          Creando la tabla de regalos              |       🟠       | [Reto #21](https://github.com/AgosVenezia/AdventJS_2022/blob/main/Reto%2321.js) |
+| 22  |          La iluminación en sintonía               |       🟢       | [Reto #22](https://github.com/AgosVenezia/AdventJS_2022/blob/main/Reto%2322.js) |
+| 23  |          Compilador de Papá Noel                  |       🔴       | [Reto #23](https://github.com/AgosVenezia/AdventJS_2022/blob/main/Reto%2323.js) |
+| 24  |          El último reto es un laberinto           |       🔴       | [Reto #24](https://github.com/AgosVenezia/AdventJS_2022/blob/main/Reto%2324.js) |
 
 
 
-🟢 Fácil 🟠 Media 🔴 Dificil 🟣 Muy Dificil
+🟢 Fácil 🟠 Medio 🔴 Difícil
+
+<br>
+
+![Clasificación](https://i.ibb.co/TDQV39C/2022-12-24-16-44-41-Greenshot.png)
