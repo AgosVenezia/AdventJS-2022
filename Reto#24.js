@@ -40,3 +40,39 @@ Sólo tienes que devolver si se puede salir del laberinto con un booleano.
 Las paredes W no se pueden saltar.
 No se pueden salir de los límites de la matriz, siempre hay que seguir un camino interno. */
 
+function canExit(maze) {
+  function replace(str) {
+    return str
+      .replace(/[S][\sE]/g, "SS")
+      .replace(/[\sE][S]/g, "SS")
+      .split("");
+  }
+
+  let x = [];
+  new Array(20).fill(0).forEach(() => {
+    let check = [...maze];
+    maze.map((horizontal, i) => {
+      maze[i] = replace(horizontal.join(""));
+      let v = maze[0].map((_, i) => replace(maze.map((x) => x[i]).join("")));
+      maze[i] = v.map((x) => x[i]);
+    });
+    check.flat().join("") == maze.flat().join("") && x.push(check);
+  });
+  return !x.flat(2).includes("E");
+}
+
+console.log(canExit([
+  [' ', ' ', 'W', ' ', 'S'],
+  [' ', ' ', ' ', ' ', ' '],
+  [' ', ' ', ' ', 'W', ' '],
+  ['W', 'W', ' ', 'W', 'W'],
+  [' ', ' ', ' ', ' ', 'E']
+]))
+
+console.log(canExit([
+  [' ', ' ', 'W', 'W', 'S'],
+  [' ', ' ', ' ', 'W', ' '],
+  [' ', ' ', ' ', 'W', ' '],
+  ['W', 'W', ' ', 'W', 'W'],
+  [' ', ' ', ' ', ' ', 'E']
+]))
