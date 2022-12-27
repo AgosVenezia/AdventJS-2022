@@ -9,7 +9,7 @@
 
 |  #  |                  Reto                             |   Dificultad   |                                  Solución                                    |
 | :-: | :-----------------------------------------------: | :------------: | :--------------------------------------------------------------------------: |
-| 01  |    ¡Automatizando envolver regalos de navidad!    |       🟢       | [Reto #1](https://github.com/AgosVenezia/adventJS_2022/blob/main/Reto%231.js) |
+| 01  |    ¡Automatizando envolver regalos de Navidad!    |       🟢       | [Reto #1](https://github.com/AgosVenezia/adventJS_2022/blob/main/Reto%231.js) |
 | 02  |         Nadie quiere hacer horas extra            |       🟢       | [Reto #2](https://github.com/AgosVenezia/adventJS_2022/blob/main/Reto%232.js) |
 | 03  | ¿Cuántas cajas de regalos puede llevar Papá Noel? |       🟢       | [Reto #3](https://github.com/AgosVenezia/adventJS_2022/blob/main/Reto%233.js) |
 | 04  |      Una caja dentro de otra caja y otra...       |       🟠       | [Reto #4](https://github.com/AgosVenezia/adventJS_2022/blob/main/Reto%234.js) |
