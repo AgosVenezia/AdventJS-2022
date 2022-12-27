@@ -44,4 +44,11 @@ function createCube(size) {
     return [...arriba, ...abajo].join("\n")
   }
 
+const cubeOfOne = createCube(1)
+console.log(createCube(1))
+
+const cubeOfTwo = createCube(2)
+console.log(createCube(2))
+
+const cube = createCube(3)
 console.log(createCube(3))
