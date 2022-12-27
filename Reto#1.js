@@ -1,4 +1,4 @@
-/* Reto #1: ¡Automatizando envolver regalos de navidad!
+/* Reto #1: ¡Automatizando envolver regalos de Navidad!
 
 Instrucciones
 
@@ -37,8 +37,3 @@ function wrapping(gifts) {
 const gifts = ['book', 'game', 'socks']
 const wrapped = wrapping(gifts)
 console.log(wrapped)
-/* [
-    "******\n*book*\n******",
-    "******\n*game*\n******",
-    "*******\n*socks*\n*******"
-   ] */
