@@ -46,5 +46,19 @@ function fixLetter(letter) {
       .replace(/([^.?!])$/,'$1.')
   }
 
+function fixLetter2(letter) {
+    return letter
+      .trim()
+      .replace(/[\s]+|[?]+/g, v => v.charAt(0))
+      .replace(/[Ss]anta [Cc]laus/g, 'Santa Claus')
+      .replace(/([\.?!] [a-z]|^[a-z])/g, (v) => v.toUpperCase())
+      .replace(/[a-z]$/g, (v) => `${v}.`)
+      .replace(/\s*([,\.\?])\s*/g, "$1 ")
+      .trim()
+  }
+
 console.log(fixLetter(` hello,  how are you??     do you know if santa claus exists?  i really hope he does!  bye  `))
 console.log(fixLetter("  Hi Santa claus. I'm a girl from Barcelona , Spain . please, send me a bike.  Is it possible?"))
+
+console.log(fixLetter2(` hello,  how are you??     do you know if santa claus exists?  i really hope he does!  bye  `))
+console.log(fixLetter2("  Hi Santa claus. I'm a girl from Barcelona , Spain . please, send me a bike.  Is it possible?"))
