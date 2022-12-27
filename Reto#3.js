@@ -21,7 +21,7 @@ Cosas a tener en cuenta:
 Las cajas de regalos no se pueden dividir.
 Los nombres de los regalos y los renos siempre serán mayores que 0. */
 
-distributeGifts = (packOfGifts, reindeers) => {
+function distributeGifts(packOfGifts, reindeers) {
     const packOfGiftsSz = packOfGifts.join('').length;
     const reindeersSz = reindeers.join('').length * 2;
     
