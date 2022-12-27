@@ -40,20 +40,24 @@ maxCities >= 1
 El número de maxCities puede ser mayor a giftsCities.length */
 
 function getMaxGifts(giftsCities, maxGifts, maxCities) {
-    return solve(giftsCities, maxGifts, maxCities);
-}
+    return Math.max(0, ...(
+      [...giftsCities
+        .reduce((x, y) => x.concat(x.map(x => [y].concat(x))), [[]])]
+        .filter((combi) => combi.length <= maxCities)
+        .map((combi) => combi.reduce((acc, weight) => acc + weight, 0))
+        .filter((item) => item <= maxGifts))
+    );
+  }
 
-function solve(giftsCities, maxGifts, maxCities, i = 0, countOfGifts = 0, currentCities = 0) {
-    if (currentCities == maxCities || i == giftsCities.length)
-        return countOfGifts;
-
-    if (countOfGifts + giftsCities[i] <= maxGifts)
-        return Math.max(
-            solve(giftsCities, maxGifts, maxCities, i + 1, countOfGifts + giftsCities[i], currentCities + 1),
-            solve(giftsCities, maxGifts, maxCities, i + 1, countOfGifts, currentCities)
-        );
-
-    return solve(giftsCities, maxGifts, maxCities, i + 1, countOfGifts, currentCities);
-}
+const giftsCities = [12, 3, 11, 5, 7]
+const maxGifts = 20
+const maxCities = 3
+console.log(getMaxGifts(giftsCities, maxGifts, maxCities))
 
 console.log(getMaxGifts([12, 3, 11, 5, 7], 20, 3));
+console.log(getMaxGifts([50], 15, 1))
+console.log(getMaxGifts([50], 100, 1))
+console.log(getMaxGifts([50, 70], 100, 1))
+console.log(getMaxGifts([50, 70, 30], 100, 2))
+console.log(getMaxGifts([50, 70, 30], 100, 3))
+console.log(getMaxGifts([50, 70, 30], 100, 4))
