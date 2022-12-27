@@ -93,6 +93,31 @@ function printTable(gifts) {
     ].join('\n')
   }
 
+
+function printTable2(gifts) {
+    const repeat = (char, times) => char.repeat(times);
+    const cell = (item, max) => `${item.padEnd(max)}`;
+    
+    gifts = gifts.map(({name, quantity}) => 
+                      ({ name, quantity: quantity.toString() }));
+    
+    const [ maxGift, maxQuantity ] = gifts.reduce((acc, curr) => {
+     return [ Math.max(acc[0], curr.name.length), 
+              Math.max(acc[1], curr.quantity.length) ];
+    }, [4, 8]);
+  
+    return '' +
+      `${repeat('+', maxGift + maxQuantity + 7)}\n` +
+      `| ${cell('Gift', maxGift)} | ${cell('Quantity', maxQuantity)} |\n` +
+      `| ${repeat('-', maxGift)} | ${repeat('-', maxQuantity)} |\n` +
+      gifts
+        .map(({ name, quantity }) => 
+             `| ${cell(name, maxGift)} | ${cell(quantity, maxQuantity)} |`)
+        .reduce((acc, gift) => acc + gift + '\n', '') +
+      repeat('*', maxGift + maxQuantity + 7);
+  }
+
+
 console.log(
     printTable([
         { name: 'Game', quantity: 2 },
@@ -106,4 +131,19 @@ console.log(
         { name: 'PlayStation 5', quantity: 9234782374892 },
         { name: 'Book Learn Web Dev', quantity: 23531 }
       ])
+)
+
+console.log(
+  printTable2([
+      { name: 'Game', quantity: 2 },
+      { name: 'Bike', quantity: 1 },
+      { name: 'Book', quantity: 3 }
+    ])
+)
+
+console.log(
+  printTable2([
+      { name: 'PlayStation 5', quantity: 9234782374892 },
+      { name: 'Book Learn Web Dev', quantity: 23531 }
+    ])
 )
