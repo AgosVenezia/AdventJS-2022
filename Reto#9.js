@@ -47,7 +47,8 @@ function countTime(leds) {
     const sortLed = lowLeds.sort((a, b) => b - a)
     return sortLed[0] * 7
   }
-  const leds = [0, 1, 1, 0, 1]
+
+const leds = [0, 1, 1, 0, 1]
 
 console.log(countTime(leds))
 console.log(countTime([0, 0, 0, 1]))
