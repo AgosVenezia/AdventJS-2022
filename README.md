@@ -41,3 +41,18 @@
 <br>
 
 ![Clasificación](https://i.ibb.co/TDQV39C/2022-12-24-16-44-41-Greenshot.png)
+
+</br>
+<h3>Sígueme en las redes:</h3>
+<p>
+<a href="https://linkedin.com/in/agostinavenezia" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="agostinavenezia" height="30" width="40" /></a>
+<a href="https://github.com/AgosVenezia" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg" alt="agosvenezia" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/agostina_cv" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="agostina_cv" height="30" width="40" /></a>
+<a href="https://codepen.io/agosvenezia" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="agosvenezia" height="30" width="40" /></a>
+</p>
+
+</br>
+<h3>Y si te gustaron mis proyectos, invítame un cafecito:</h3>
+<p><a href="https://www.buymeacoffee.com/agosvenezia"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="40" width="192" alt="agosvenezia" /></a>
+<a href='https://cafecito.app/agosvenezia' rel='noopener' target='_blank'><img align="center" srcset='https://cdn.cafecito.app/imgs/buttons/button_2.png 1x, https://cdn.cafecito.app/imgs/buttons/button_2_2x.png 2x, https://cdn.cafecito.app/imgs/buttons/button_2_3.75x.png 3.75x' src='https://cdn.cafecito.app/imgs/buttons/button_2.png' height="40" width="192" alt='Invitame un café en cafecito.app' /></a>
+</p>
